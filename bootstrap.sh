@@ -56,7 +56,6 @@ sudo chmod -R 777 /tmp/tmp
 
 # Open port 80
 sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
-sudo iptables -A INPUT -p tcp --dport 5000 -j ACCEPT
 sudo iptables-save
 
 # install Apache, configure, start it
@@ -64,4 +63,4 @@ sudo apt-get -y install apache2
 sudo apt-get -y install libapache2-mod-wsgi
 sudo cp /var/www/discover-flask.conf /etc/apache2/sites-enabled/discover-flask.conf
 sudo /etc/init.d/apache2 reload
-sudo rm -R /var/www/html
+# sudo rm -R /var/www/html
