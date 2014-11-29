@@ -16,3 +16,16 @@ vagrant/.vagrant/machines/default/virtualbox/action_set_name
 vagrant/.vagrant/machines/default/virtualbox/action_provision
 vagrant/.vagrant/machines/default/virtualbox/id
 vagrant/.vagrant/machines/default/virtualbox/index_uuid
+vagrant-test/vagrant-ssh
+
+www/.coverage
+
+www/clonedigger.xml
+
+www/coverage.xml
+
+www/nosetests.xml
+
+www/pylint.out
+
+.pydevproject
