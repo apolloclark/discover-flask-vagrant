@@ -19,6 +19,7 @@ ln -fs /vagrant /var/www
 # Install Python
 sudo apt-get -y install python2.7 python-pip python-dev libpq-dev
 sudo pip install --upgrade pip
+# @see https://pip.pypa.io/en/latest/reference/pip.html
 
 # Install code quality tools
 sudo pip install -qqq pylint > /dev/null
