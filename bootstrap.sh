@@ -21,15 +21,15 @@ sudo apt-get -y install python2.7 python-pip python-dev libpq-dev
 sudo pip install --upgrade pip
 
 # Install code quality tools
-sudo pip install pylint
-sudo pip install mock
-sudo pip install coverage
-sudo pip install nose
-sudo pip install nosexcover
-sudo pip install clonedigger
+sudo pip install -qqq pylint > /dev/null
+sudo pip install --quiet mock
+sudo pip install --quiet coverage
+sudo pip install --quiet nose
+sudo pip install --quiet nosexcover
+sudo pip install --quiet clonedigger
 
 # Install Flask Requirements
-sudo pip install -r /var/www/requirements.txt
+sudo pip install -qq -r /var/www/requirements.txt
 
 # Setup Discover-Flask
 APP_SETTINGS="config.ProductionConfig"
