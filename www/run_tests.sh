@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash
 
 # setup folder, permissions
 cd /var/www

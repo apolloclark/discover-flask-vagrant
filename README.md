@@ -8,5 +8,5 @@ To run:
 - go into the "/vagrant" folder
 - run "vagrant up"
 - wait until the box has finished provisioning
-- go to "http://127.0.0.1:8080"
+- go to "http://127.0.0.1:8081"
 - login with the username "admin" and password "admin"
